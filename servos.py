@@ -22,7 +22,7 @@ class Servo:
         self.right_id = 4
 
         # Set up servo angle limits
-        self.degrees = 90
+        self.degrees = 180
         self.min_deg = -self.degrees/2
         self.max_deg = self.degrees/2
 
